@@ -1,0 +1,253 @@
+.qq {
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  background-color: hwb(230 2% 86% / 0.969);
+  align-items: center;
+  gap: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+#id {
+  color: #096f6f9e;
+}
+.qw {
+  background-color: #5329ab;
+  color: white;
+  border-radius: 10px;
+}
+.wq {
+  background-color: hwb(230 2% 86% / 0.969);
+  color: #4747eed7;
+  border-radius: 10px;
+  border-color: #4747eed7;
+}
+body {
+  background-color: hwb(230 2% 86% / 0.969);
+}
+.mm {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.ww {
+  color: white;
+  text-align: center;
+}
+.qe {
+  background-color: lightgray;
+  color: #2f71c1;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.eq {
+  border-color: #4747eed7;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #2f71c1;
+}
+.dd {
+  text-align: center;
+  color: #249cac;
+}
+.zz {
+  color: white;
+  margin-left: 200px;
+  margin-top: 100px;
+  background-color: rgba(13, 50, 66, 0.568);
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+}
+.cc {
+  color: white;
+  margin-left: 700px;
+  margin-top: 50px;
+  background-color: rgba(13, 50, 66, 0.568);
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+}
+.vv {
+  color: white;
+  margin-left: 700px;
+  margin-top: 50px;
+  background-color: rgba(13, 50, 66, 0.568);
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+}
+.va {
+  color: #0649afc5;
+  text-align: center;
+}
+.as {
+  color: white;
+  margin-left: 120px;
+}
+
+body {
+  background: #0f172a;
+  font-family: Inter, sans-serif;
+  color: #e5e7eb;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* ikki ustun */
+  gap: 48px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.column h2 {
+  margin: 0 0 24px;
+  font-size: 24px;
+}
+
+.skill {
+  margin-bottom: 24px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between; /* nom chapda, foiz o'ngda */
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* orqa fon (to'lmagan qism) */
+.bar {
+  height: 8px;
+  background: #cad3e2;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+/* to'lgan qism: kenglik inline style orqali beriladi */
+.fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0ea5e9, #7c3aed); /* ko'k -> binafsha */
+}
+.fill:hover {
+  box-shadow:
+    rgba(31, 24, 16, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/* telefonda bitta ustun */
+@media (max-width: 600px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}
+.vd {
+  text-align: center;
+  color: lch(37.12% 55.25 293.24);
+}
+.fa:hover {
+  margin-left: 50px;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.af:hover {
+  margin-left: 50px;
+  margin-top: 50px;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.class {
+  text-align: center;
+  color: hsl(199, 42%, 31%);
+}
+.class1 {
+  background-color: hsl(222, 65%, 30%);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 15px;
+}
+.ff {
+  background-color: #817878;
+  color: white;
+  border-radius: 12px;
+  margin-left: 20px;
+  border: 0px;
+}
+.kl {
+  text-align: center;
+  color: #0ea5e9;
+}
+.sz {
+  color: rgb(107, 65, 65);
+  margin-top: 80px;
+  text-align: center;
+}
+.mo {
+  margin-left: 50px;
+  color: white;
+}
+.mb {
+  margin-left: 50px;
+  color: gray;
+}
+.mv {
+  margin-left: 40px;
+}
+.vm {
+  margin-left: 40px;
+}
+.zm {
+  margin-left: 45px;
+}
+.nb {
+  margin-left: 40px;
+  gap: 20px;
+}
+.asd {
+  margin-left: 40px;
+}
+.po {
+  border-radius: 8px;
+  width: 160px;
+  background-color: hsl(222, 41%, 34%);
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: white;
+}
+#asq {
+  margin-left: 40px;
+  width: 370px;
+}
+.pou {
+  border-radius: 8px;
+  width: 370px;
+  height: 140px;
+  background-color:hsl(222, 41%, 34%);
+  color: white;
+  margin-left: 40px;
+}
+.dg{
+  background-color: #0ea5e9;
+  color: white;
+  border-radius: 8px;
+  width: 380px;
+  margin-left: 40px;
+  text-align: center;
+}
